@@ -252,6 +252,10 @@ class PersistentBottomNavBar extends StatelessWidget {
           return BottomNavMeeyLand(
             navBarEssentials: this.navBarEssentials,
           );
+        case NavBarStyle.meeymap:
+          return BottomNavMeeyMap(
+            navBarEssentials: this.navBarEssentials,
+          );
         default:
           return BottomNavSimple(
             navBarEssentials: this.navBarEssentials,
