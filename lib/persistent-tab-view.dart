@@ -54,3 +54,4 @@ part 'nav-bar-styles/style-17-bottom-nav-bar.widget.dart';
 part 'nav-bar-styles/style-18-bottom-nav-bar.widget.dart';
 part 'nav-bar-styles/simple-bottom-nav-bar.widget.dart';
 part 'nav-bar-styles/neumorphic-bottom-nav-bar.widget.dart';
+part 'nav-bar-styles/style-meeyland-bottom-nav-bar.widget.dart';

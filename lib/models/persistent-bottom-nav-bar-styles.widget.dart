@@ -21,6 +21,7 @@ enum NavBarStyle {
   style18,
   neumorphic,
   simple,
+  meeyland,
 }
 
 enum PopActionScreensType { once, all }
