@@ -339,7 +339,7 @@ class _TabSwitchingViewState extends State<_TabSwitchingView> with TickerProvide
         );
       }
     }
-    FocusScope.of(context).setFirstFocus(tabFocusNodes[widget.currentTabIndex]);
+    // FocusScope.of(context).setFirstFocus(tabFocusNodes[widget.currentTabIndex]);
     if (widget.screenTransitionAnimation!.animateTabTransition) _lastPageAnimation();
   }
 
@@ -428,7 +428,7 @@ class _TabSwitchingViewState extends State<_TabSwitchingView> with TickerProvide
     } else if (lengthDiff < 0) {
       shouldBuildTab.removeRange(widget.tabCount!, shouldBuildTab.length);
     }
-    // _focusActiveTab();
+    _focusActiveTab();
   }
 
   @override
